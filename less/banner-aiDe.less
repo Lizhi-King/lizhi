@@ -1,0 +1,156 @@
+@ziti-color:        #000;
+#header{
+    width: 100%;
+    height: 100px;
+    #navbox{
+        .anniu2{
+            div.line{
+                background: @ziti-color;
+            } 
+            p.xuandan{
+                color: @ziti-color;
+            }
+        }
+        ul.wbiao_hei{
+            >li.hei{
+                >a{
+                 color: @ziti-color;
+                }
+            }
+        }
+        ul.sousuo_hei{
+            >li{
+            color: @ziti-color;
+            
+            }
+        }
+        .sousuo_hei{
+            >li{
+                >a{
+                    >i{
+                    color: @ziti-color; 
+                    }
+                    >span.xuandan{
+                        color: @ziti-color;
+                    } 
+                }
+            }
+        }
+        .zhuye{
+            width: 100%;
+            height: 100%;
+            p{
+                a{
+                    color: #000;
+                    text-decoration: none;
+                    &:hover{
+                        color: #008000;
+                    }
+                }
+            }
+        }  
+    }
+}
+.aidebox{
+    h2{
+        font-size: 23px;
+        color: #C0A16B;
+    }
+    h1{
+        font-size: 45px;
+        font-weight: 900;
+        font-weight: 900;
+    }
+    P{
+        span{
+            display: block;
+            font-size: 16px;
+            color: #777;
+        }
+    }
+}
+.aide_tu{
+    width: 100%;
+    height: 100%;
+    .renshen{
+        p{
+        position: absolute;
+        bottom: 40%;
+        right: 15%;
+            >span{
+                color: #fff;
+                font-size: 30px;
+                font-weight: 800;
+            }
+        }
+    }
+}
+.san_duan{
+     margin: 4% 0 3% 0;
+    p{
+        font-size: 14px;
+        color: #777;
+    }
+    .xin{
+        font-size: 30px;
+        margin: 2% 0 2% 0;
+    }
+    .tanshuo{
+        margin: 1% 0 2% 0;
+        >a{
+            text-decoration: none;
+            padding: 0.5%;
+            color: #333;
+            border: 1px solid #444;
+            &:hover{
+                color: #fff;
+                background-color: #080808;
+            }
+        }
+    }
+}
+.boluo_big_box{
+    width: 100%;
+    height: 100%;
+//  background: burlywood;
+}
+.boluo_box{
+    position: relative;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    >.boluo_div{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10000px;
+        transition: all 0.1s; 
+//      background: palegoldenrod;
+        .boluo{
+        float: left;
+        width: 1900px;
+        height: 100%;
+            >li{
+                float: left;
+                 margin-right:-5% ;
+            }
+            >li:nth-child(1){
+                margin-left: 5%;
+            }
+        }
+    }
+    .boluo_left{
+        position: absolute;
+        font-size: 30px;
+        top: 30%;
+        left: 3%;
+        display: none;
+    }
+    .boluo_right{
+        position: absolute;
+        font-size: 30px;
+        top: 30%;
+        right: 3%;
+    }
+
+}
